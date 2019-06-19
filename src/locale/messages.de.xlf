@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="de">
+    <body>
+      <trans-unit id="homePageTestTitle" datatype="html">
+        <source>This is row for translation in different languages!</source><target state="new">Dies ist eine Zeile für die Übersetzung in verschiedene Sprachen!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">This is test title for showing how you can use translating via i18n angular</note>
+      </trans-unit>
+      <trans-unit id="homePageLink" datatype="html">
+        <source>First link on page</source><target state="new">Titel des Testlinks</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homePageTestTitleAttribut" datatype="html">
+        <source>Title of test link</source><target state="new">Erster Link auf Seite</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
